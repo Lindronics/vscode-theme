@@ -1,15 +1,15 @@
 {
-    "name": "xcode-default-theme",
-    "displayName": "Xcode Default Theme",
-    "description": "Brings the colors of the Xcode 'Default (Dark)' and 'Default (Light)' themes to Visual Studio Code",
+    "name": "lindronics-theme",
+    "displayName": "Lindronics Theme",
+    "description": "",
     "categories": [
         "Themes"
     ],
     "version": "2.0.23",
-    "publisher": "smockle",
+    "publisher": "lindronics",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/smockle/xcode-default-theme.git"
+        "url": "git+https://github.com/lindronics/vscode-theme.git"
     },
     "engines": {
         "vscode": "*"
@@ -17,28 +17,16 @@
     "contributes": {
         "themes": [
             {
-                "id": "Xcode Default (Dark)",
-                "label": "Xcode Default (Dark)",
+                "id": "Lindronics Dark",
+                "label": "Lindronics Dark",
                 "uiTheme": "vs-dark",
-                "path": "./xcode-default-dark-theme.json"
+                "path": "./lindronics-dark.json"
             },
             {
-                "id": "Xcode Default (Light)",
-                "label": "Xcode Default (Light)",
+                "id": "Lindronics Light",
+                "label": "Lindronics Light",
                 "uiTheme": "vs",
-                "path": "./xcode-default-light-theme.json"
-            },
-            {
-                "id": "Xcode Partial (Dark)",
-                "label": "Xcode Partial (Dark)",
-                "uiTheme": "vs-dark",
-                "path": "./xcode-partial-dark-theme.json"
-            },
-            {
-                "id": "Xcode Partial (Light)",
-                "label": "Xcode Partial (Light)",
-                "uiTheme": "vs",
-                "path": "./xcode-partial-light-theme.json"
+                "path": "./lindronics-light.json"
             }
         ]
     }

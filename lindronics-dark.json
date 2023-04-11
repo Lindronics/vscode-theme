@@ -80,11 +80,15 @@
   "tokenColors": [
     {
       "scope": "source",
-      "settings": { "foreground": "#ffffff" }
+      "settings": {
+        "foreground": "#ffffff"
+      }
     },
     {
       "scope": "new.expr entity.name",
-      "settings": { "foreground": "#8AD1C3" }
+      "settings": {
+        "foreground": "#8AD1C3"
+      }
     },
     {
       "name": "Comments",
@@ -92,7 +96,10 @@
         "comment", // //
         "comment storage.type" // /** @class */
       ],
-      "settings": { "foreground": "#7F8C99", "fontStyle": "italic" }
+      "settings": {
+        "foreground": "#7F8C99",
+        "fontStyle": "italic"
+      }
     },
     {
       "name": "CSS",
@@ -114,7 +121,9 @@
         "support.function.transform.css", // .x { x: rotate(x) }
         "support.function.transform.scss"
       ],
-      "settings": { "foreground": "#FC5FA3" }
+      "settings": {
+        "foreground": "#FC5FA3"
+      }
     },
     {
       "name": "Decorator",
@@ -124,12 +133,18 @@
         "meta.decorator variable.other.readwrite",
         "meta.decorator meta.function-call entity.name.function"
       ],
-      "settings": { "foreground": "#FD8F3F" }
+      "settings": {
+        "foreground": "#FD8F3F"
+      }
     },
     {
       "name": "Doctype",
-      "scope": ["meta.tag.sgml.html"],
-      "settings": { "foreground": "#BFBFBF" }
+      "scope": [
+        "meta.tag.sgml.html"
+      ],
+      "settings": {
+        "foreground": "#BFBFBF"
+      }
     },
     {
       "name": "Functions",
@@ -137,7 +152,9 @@
         "entity.name.function", // foo.x()
         "support.function" // Object.keys
       ],
-      "settings": { "foreground": "#FF816F" }
+      "settings": {
+        "foreground": "#FF816F"
+      }
     },
     {
       "name": "Keys",
@@ -147,7 +164,9 @@
         "support.type.map.key", // (foo: $x)
         "entity.name.tag.yaml" // - foo
       ],
-      "settings": { "foreground": "#FF816F" }
+      "settings": {
+        "foreground": "#FF816F"
+      }
     },
     {
       "name": "Keywords",
@@ -168,7 +187,10 @@
         "meta.tag support.class", // <jsx>
         "string.regexp keyword.other" // //g
       ],
-      "settings": { "foreground": "#FF7AB2", "fontStyle": "bold" }
+      "settings": {
+        "foreground": "#FF7AB2",
+        "fontStyle": "bold"
+      }
     },
     {
       "name": "Operators",
@@ -183,14 +205,18 @@
         "punctuation.definition.group.regexp", // /()/
         "punctuation.definition.character-class" // /[]/
       ],
-      "settings": { "foreground": "#ffffff" }
+      "settings": {
+        "foreground": "#ffffff"
+      }
     },
     {
       "scope": [
         "meta.tag entity.other.attribute-name", // <x prop="" />
         "constant.character.escape.backslash" // /\//
       ],
-      "settings": { "foreground": "#FFC799" }
+      "settings": {
+        "foreground": "#FFC799"
+      }
     },
     {
       "name": "Numbers",
@@ -199,7 +225,9 @@
         "keyword.other.unit",
         "constant.other.color"
       ],
-      "settings": { "foreground": "#A79DF8" }
+      "settings": {
+        "foreground": "#A79DF8"
+      }
     },
     {
       "name": "Strings",
@@ -211,7 +239,9 @@
         "meta.template.expression meta.embedded punctuation.definition.string.begin", // { true ? "foo" : "foo" }
         "meta.template.expression meta.embedded punctuation.definition.string.end"
       ],
-      "settings": { "foreground": "#FC6A5D" }
+      "settings": {
+        "foreground": "#FC6A5D"
+      }
     },
     {
       "name": "Types",
@@ -221,7 +251,9 @@
         "entity.name.type", // foo as Element
         "support.type.primitive" // foo as any
       ],
-      "settings": { "foreground": "#8AD1C3" }
+      "settings": {
+        "foreground": "#8AD1C3"
+      }
     },
     {
       "scope": [
@@ -232,7 +264,9 @@
         "variable.other.bracket.shell", // "${SHELL_FOO}"
         "entity.name.function.scss" // @include foo
       ],
-      "settings": { "foreground": "#91D462" }
+      "settings": {
+        "foreground": "#91D462"
+      }
     },
     {
       "scope": [
@@ -244,7 +278,9 @@
         "meta.template.expression variable.other.constant", // `${FOO}`
         "support.constant.property-value" // composes: bold from "_"
       ],
-      "settings": { "foreground": "#ffffff" }
+      "settings": {
+        "foreground": "#ffffff"
+      }
     },
     {
       "scope": [
@@ -252,7 +288,9 @@
         "variable.other.object.property",
         "support.variable.property"
       ],
-      "settings": { "foreground": "#8AD1C3" }
+      "settings": {
+        "foreground": "#8AD1C3"
+      }
     }
   ]
 }
